@@ -6,12 +6,12 @@ body {
   color: #ffffff;
 }
 
-/* header {
+header {
   background-image: url('../barnner5.png');
   background-size: cover;
   background-position: center;
   height: 100px;
-} */
+}
 
 nav {
   background-color: #222;
@@ -140,11 +140,11 @@ footer {
   border-top: 2px solid #555;
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   .arepa-item {
     flex-direction: column;
     text-align: center;
-  }
+  }*/
 	
 	
 	.responsive-banner {
@@ -163,6 +163,10 @@ footer {
 @media (max-width: 768px) {
   .responsive-banner {
     height: 20vh;
+		.arepa-item {
+    flex-direction: column;
+    text-align: center;
+
   }
 }
 
