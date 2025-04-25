@@ -6,12 +6,12 @@ body {
   color: #ffffff;
 }
 
-header {
+/* header {
   background-image: url('../barnner5.png');
   background-size: cover;
   background-position: center;
   height: 100px;
-}
+} */
 
 nav {
   background-color: #222;
